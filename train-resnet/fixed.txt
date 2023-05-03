@@ -1,0 +1,15 @@
+1.File "C:\Users\Admin\Downloads\train-dqn\train-dqn\gym_airsim\myAirSimClient.py", line 5, in <module>
+    from pylab import array, arange, uint8
+=> from pylab import *
+2.File "C:\Users\Admin\Downloads\train-dqn\train-dqn\RLController.py", line 17, in <module>
+    from keras.layers.merge import add
+ModuleNotFoundError: No module named 'keras.layers.merge'
+=> delete line 17
+3.File "C:\Users\Admin\anaconda3\envs\Ase\lib\site-packages\gym\core.py", line 241, in __getattr__
+    return getattr(self.env, name)
+AttributeError: 'AirSimEnv' object has no attribute 'seed'
+=> delete line 241
+4.File "C:\Users\Admin\anaconda3\envs\Ase\lib\site-packages\rl\util.py", line 86, in __init__
+    super().__init__(optimizer._name)
+AttributeError: 'Adam' object has no attribute '_name'
+=> '_name' = 'name'

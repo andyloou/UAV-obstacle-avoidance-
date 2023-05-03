@@ -1,0 +1,7 @@
+chạy chương trình 
+thư viện cần cài đặt: Gym, Gym airsim
+pip install Gym
+để cài đặt thư viện Gym airsim giải nén file Gym_airsim.rar paste tại thư mục địa chỉ: 
+anaconda 3\envs(tên thư viện)\ase\lib\site-packages
+gõ nội dung sau vào terminal để chạy UAV:
+python test.py
