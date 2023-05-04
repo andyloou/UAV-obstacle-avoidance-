@@ -26,3 +26,5 @@ Nguyên nhân đề xuất:
   
   •	Mô hình Resnet50 quá phức tạp so với yêu cầu bài toán với số lượng layers lớn hơn nhiều dẫn đến quá trình kết quả training chưa tốt, khi vào bài toán nhận dạng kém chính xác hơn
 
+
+Link demo: https://youtu.be/IgYo1a2Ii48
